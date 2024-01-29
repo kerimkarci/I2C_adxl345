@@ -7,20 +7,20 @@
 
 #include "stm32f4xx.h"
 
-#define GPIOBEN		(1<<1)
-#define I2C1EN		(1<<21)
+#define GPIOBEN			(1<<1)
+#define I2C1EN			(1<<21)
 
-#define I2C_100KHz				80 //0B 0101 0000
+#define I2C_100KHz		80 			//0B 0101 0000
 #define SD_MODE_MAX_RISE_TIME	17
-#define SR2_BUSY				(1<<1)
-#define CR1_START				(1<<8)
-#define SR1_SB		(1<<0)
-#define SR1_ADDR	(1<<1)
-#define SR1_TXE		(1<<7)
-#define CR1_ACK		(1<<10)
-#define CR1_STOP	(1<<9)
-#define SR1_RXNE	(1<<6)
-#define SR1_BTF		(1<<2)
+#define SR2_BUSY		(1<<1)
+#define CR1_START		(1<<8)
+#define SR1_SB			(1<<0)
+#define SR1_ADDR		(1<<1)
+#define SR1_TXE			(1<<7)
+#define CR1_ACK			(1<<10)
+#define CR1_STOP		(1<<9)
+#define SR1_RXNE		(1<<6)
+#define SR1_BTF			(1<<2)
 /*
  * PB8---SCL
  * PB9---SDA
